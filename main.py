@@ -79,6 +79,6 @@ submit_button.grid(row=2, column=0)
 
 # create a text box for the response
 response_box = tkinter.Text(app)
-response_box.grid(row=4, column=0)
+response_box.grid(row=4, column=0, columnspan=4)
 
 app.mainloop()
